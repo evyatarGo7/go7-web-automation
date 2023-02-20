@@ -1,0 +1,25 @@
+ Best practices
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+  kill chrome port              kill $(lsof -t -i:9515)
+  kill firefox port              kill $(lsof -t -i:4444)
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+ RUN
+-------------------------------------------------------------------------------------------------------------------------------
+  Run test via terminal                      ./node_modules/.bin/nightwatch automation/tests/stage/portalSanity/portal-sanity.js
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+ Selectors
+--------------------------------------------------------------------------------------------------------------------------------
+Use partial id                          id$="_documentType" (_documentType is the end of the dynamic id) ($-ends with, ^-starts with, *-contains)
+Chain 2 attribute values                [data-test-index="0"] select[id$="_documentType"]
+--------------------------------------------------------------------------------------------------------------------------------
+
+Chrome driver issues: just run: npm install chromedriver
+Chrome driver issues: just run: npm install chromedriver

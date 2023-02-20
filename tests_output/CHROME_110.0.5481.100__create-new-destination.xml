@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="create-new-destination"
+    errors="1" failures="0" hostname="" id="" package="create-new-destination" skipped="0"
+    tests="2" time="10.90" timestamp="">
+  
+    <testcase name="step 1 - Login" classname="create-new-destination" time="10.85" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2 - Create new destination" classname="create-new-destination" time="0.05400" assertions="0">
+    <error message="pageMainToolbar is not defined" type="error"><![CDATA[
+    ReferenceError: pageMainToolbar is not defined
+    at step 2 - Create new destination (/Users/evyatar.da/IdeaProjects/go7-web-automation/automation/tests/create-new-destination.js:17:32)
+    at Context.call (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/context.js:478:35)
+    at TestCase.run (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.__runFn (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:752:80)
+    at Runnable.run (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+    at TestSuite.executeRunnable (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:905:49)
+    at TestSuite.handleRunnable (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:920:33)
+    at /Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:752:21
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   pageMainToolbar is not defined
+
+    Error location:
+    /Users/evyatar.da/IdeaProjects/go7-web-automation/automation/tests/create-new-destination.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     15 |         browser
+     16 |             // Click on navigation menu
+     17 |             .waitAndClickByCss(pageMainToolbar.selectors.navigationToolbar.moduleDisplay) 
+     18 |             // Add value in the search input
+     19 |             .waitAndSetValueByCss(pageMainToolbar.selectors.navigationToolbar.searchInput, &#39;Destinations&#39;)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at step 2 - Create new destination (/Users/evyatar.da/IdeaProjects/go7-web-automation/automation/tests/create-new-destination.js:17:32)
+    at Context.call (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/context.js:478:35)
+    at TestCase.run (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.__runFn (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:752:80)
+    at Runnable.run (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+    at TestSuite.executeRunnable (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:905:49)
+    at TestSuite.handleRunnable (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:920:33)
+    at /Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/testsuite/index.js:752:21
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

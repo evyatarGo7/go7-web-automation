@@ -1,0 +1,28 @@
+{
+  "name": "go7-web-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/nightwatch/bin/runner.js -e dev automation/tests/create-new-destination.js"
+  },
+  "dependencies": {
+    "@nightwatch/selenium-server": "^3.150.0",
+    "axios": "^1.2.1",
+    "dateformat": "^3.0.3",
+    "dayjs": "^1.11.2",
+    "moment": "^2.29.4",
+    "nightwatch-tools": "^0.1.0",
+    "randomstring": "^1.2.2",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.6.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^110.0.0",
+    "fs": "^0.0.2",
+    "geckodriver": "^3.0.2",
+    "msedgedriver": "^91.0.0",
+    "nightwatch": "^2.6.14",
+    "nightwatch-slack-reporter": "^0.0.2",
+    "selenium-server": "^3.141.59"
+  }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tests.one"
+    errors="1" failures="0" hostname="" id="" package="one" skipped="0"
+    tests="1" time="12.46" timestamp="">
+  
+    <testcase name="step 1 - Login" classname="tests.one" time="12.46" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <error message="Error while running &#34;waitForElementVisible&#34; command: Invalid selector value specified &#34;undefined&#34;" type="error"><![CDATA[
+    Error
+    at exports.command (/Users/evyatar.da/IdeaProjects/go7-web-automation/automation/commands/commands-general/waitAndClickByCss.js:11:6)
+    at Immediate._onImmediate (/Users/evyatar.da/IdeaProjects/go7-web-automation/node_modules/nightwatch/lib/api/_loaders/command.js:32:33)
+    at process.processImmediate (node:internal/timers:476:21)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error
+   Error while running &#34;waitForElementVisible&#34; command: Invalid selector value specified &#34;undefined&#34;
+
+    Error location:
+    /Users/evyatar.da/IdeaProjects/go7-web-automation/automation/commands/commands-general/waitAndClickByCss.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 |   browser
+     10 |     .useCss()
+     11 |     .waitForElementVisible(selector, 30000) 
+     12 |     .click(selector);
+     13 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
